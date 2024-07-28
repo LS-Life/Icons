@@ -1,0 +1,168 @@
+
+<!-- saved from url=(0084)https://web.archive.org/web/20180730105231fw_/http://www.rockstargames.com/exsorbeo/ -->
+<html><!--Dynamic Drive DHTML Scripts, examples, and tutorials. Copyrighted � 1998--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="" src="./analytics.js(1).téléchargement"></script><script async="" src="./gtm.js.téléchargement"></script><script type="text/javascript" src="./bundle-playback.js.téléchargement" charset="utf-8"></script>
+<script type="text/javascript" src="./wombat.js.téléchargement" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="./ruffle.js.téléchargement"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.rockstargames.com/exsorbeo/","20180730105231","https://web.archive.org/","web","/_static/",
+	      "1532947951");
+</script>
+<link rel="stylesheet" type="text/css" href="./banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+<meta name="description" content="Live Background Previewer Script">
+<meta name="keywords" content="background previewer, thumbnail viewer, ">
+<title>eXsorbeo</title>
+
+<script type="text/javascript">
+window.dataLayer = window.dataLayer || [];
+window.gdpr = {"eu":true,"value":null,"show_banner":true,"cookies":{"mandatory":true,"convenience":false,"tracking":false}};
+</script><link rel="stylesheet" type="text/css" href="./gdpr-banner.min.css"></head>
+
+<body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0" bgcolor="#000000" text="#FFFFFF" link="#FFFF00" vlink="#00FF00" alink="#008000">
+<script type="text/javascript" src="./gdpr-banner.min.js.téléchargement"></script><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://web.archive.org/web/20180730105231/https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NSXXFR');</script>
+<!-- End Google Tag Manager --><script>dataLayer.push({'event': 'trackPageview'});</script>
+<table width="100%" height="100%" border="0" cellpadding="3" cellspacing="0">
+  <tbody><tr>
+    <td valign="middle" align="center"> 
+      <table width="700" border="0" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td height="594" align="center" valign="top"><img src="./home.jpg" width="750" height="575" border="0" usemap="#MapMap"></td>
+        </tr>
+      </tbody></table>
+      <p align="left"><font face="Verdana">
+        <layer name="a1" left="10" top="10" visibility="SHOW" bgcolor="#FFFF00" clip="0,0,3,3"></layer>
+        <script language="JavaScript">
+<!-- 
+
+if (document.all){
+document.write('<div id="starsDiv" style="position:absolute;top:0px;left:0px">')
+for (xy=0;xy<7;xy++)
+document.write('<div style="position:relative;width:3px;height:3px;background:#5D3400;font-size:2px;visibility:visible"></div>')
+document.write('</div>')
+}
+
+if (document.layers)
+{window.captureEvents(Event.MOUSEMOVE);}
+var yBase = 200;
+var xBase = 200;
+var yAmpl = 10;
+var yMax = 40;
+var step = .2;
+var ystep = .5;
+var currStep = 0;
+var tAmpl=1;
+var Xpos = 1;
+var Ypos = 1;
+var i = 0;
+var j = 0;
+
+if (document.all)
+{
+  function MoveHandler(){
+  Xpos = document.body.scrollLeft+event.x;
+  Ypos = document.body.scrollTop+event.y;
+  }
+  document.onmousemove = MoveHandler; 
+}
+
+else if (document.layers)
+{
+  function xMoveHandler(evnt){
+  Xpos = evnt.pageX;
+  Ypos = evnt.pageY;
+  }
+  window.onMouseMove = xMoveHandler;
+}
+
+
+
+function animateLogo() {
+if (document.all)
+{
+ yBase = window.document.body.offsetHeight/4;
+ xBase = window.document.body.offsetWidth/4;
+}
+else if (document.layers)
+{
+ yBase = window.innerHeight/4 ;
+ xBase = window.innerWidth/4;
+}
+
+if (document.all)
+{
+var totaldivs=document.all.starsDiv.all.length
+ for ( i = 0 ; i < totaldivs ; i++ )
+ {
+var tempdiv=document.all.starsDiv.all[i].style
+  tempdiv.top = Ypos + Math.cos((20*Math.sin(currStep/20))+i*70)*yBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + i*25)/10);
+  tempdiv.left = Xpos + Math.sin((20*Math.sin(currStep/20))+i*70)*xBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + i*25)/10);
+ }
+}
+
+else if (document.layers)
+{
+ for ( j = 0 ; j < 7 ; j++ ) 
+ {
+var templayer="a"+j
+  document.layers[templayer].top = Ypos + Math.cos((20*Math.sin(currStep/20))+j*70)*yBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + j*25)/10);
+  document.layers[templayer].left =Xpos + Math.sin((20*Math.sin(currStep/20))+j*70)*xBase*(Math.sin(10+currStep/10)+0.2)*Math.cos((currStep + j*25)/10);
+ }
+}
+currStep += step;
+setTimeout("animateLogo()", 15);
+}
+animateLogo();
+// -->
+        </script>
+        <!--webbot bot="HTMLMarkup" endspan -->
+    </font></p>
+    <p align="left"><font face="Verdana"><small></small></font></p>
+    <p align="left"><font face="Verdana"><br>
+    </font></p>
+    </td>
+  </tr>
+</tbody></table>
+<map name="Map">
+  <area shape="rect" coords="437,26,491,80" href="https://web.archive.org/web/20180730105231fw_/http://www.rockstargames.com/exsorbeo/#">
+  <area shape="rect" coords="493,27,548,82" href="https://web.archive.org/web/20180730105231fw_/http://www.rockstargames.com/exsorbeo/games.htm">
+  <area shape="rect" coords="552,27,607,83" href="https://web.archive.org/web/20180730105231fw_/http://www.rockstargames.com/exsorbeo/blindness.htm">
+  <area shape="rect" coords="387,26,432,79" href="https://web.archive.org/web/20180730105231fw_/http://www.rockstargames.com/exsorbeo/index.htm">
+</map>
+<map name="MapMap">
+  <area shape="rect" coords="438,26,490,79" href="https://web.archive.org/web/20180730105231fw_/http://www.rockstargames.com/exsorbeo/emulator.htm">
+  <area shape="rect" coords="494,25,548,82" href="https://web.archive.org/web/20180730105231fw_/http://www.rockstargames.com/exsorbeo/games.htm">
+  <area shape="rect" coords="551,26,607,82" href="https://web.archive.org/web/20180730105231fw_/http://www.rockstargames.com/exsorbeo/blindness.htm">
+  <area shape="rect" coords="382,280,740,561" href="https://web.archive.org/web/20180730105231fw_/http://www.rockstargames.com/exsorbeo/downloads/yellow.jpg" target="_blank">
+</map>
+<embed src="/web/20180730105231oe_/http://www.rockstargames.com/exsorbeo/exsorbeo_sample.mp3" autostart="true" loop="false" volume="100" hidden="true"><noembed><bgsound src="exsorbeo_sample.mp3"></noembed>
+
+
+
+
+<script type="text/javascript" id="">var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+let window = _____WB$wombat$assign$function_____("window");
+let globalThis = _____WB$wombat$assign$function_____("globalThis");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opener = _____WB$wombat$assign$function_____("opener");
+{
+window.jQuery&&jQuery(document).ready(function(c){var d=/\.(zip|exe|dmg|pdf|doc*|xls*|ppt*|mp3|jpg|themepack|wmv|mp4|mov|flv)$/i;c("a").filter(function(){return!c(this).data("notrack")}).each(function(){var a=c(this).attr("href");a&&("aim:"==a.substr(0,4)?c(this).click(function(){var b=a.replace("aim:","");dataLayer.push({event:"uaTrackEvent",gaCategory:"Download",gaAction:"Click-aim",gaLabel:b})}):"mailto:"==a.substr(0,7)?c(this).click(function(){var b=a.replace("mailto:","");dataLayer.push({event:"uaTrackEvent",
+gaCategory:"Email",gaAction:"Click",gaLabel:b})}):a.match(/^https?:/)&&(a.match(d)?c(this).click(function(){var b=a.split(".");b=b[b.length-1];dataLayer.push({event:"uaTrackEvent",gaCategory:"Download",gaAction:"Click-"+b,gaLabel:a});if("_blank"!=c(this).attr("target"))return setTimeout(function(){location.href=a},250),!1}):0<=a.indexOf(document.domain)||c(this).click(function(){var b=a.replace(/^https?:\/\//,"");dataLayer.push({event:"uaTrackEvent",gaCategory:"External",gaAction:"Click",gaLabel:b});
+if("_blank"!=c(this).attr("target"))return setTimeout(function(){location.href=a},250),!1})))})});
+
+}}</script></body></html>

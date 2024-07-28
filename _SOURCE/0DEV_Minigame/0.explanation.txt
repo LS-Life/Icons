@@ -1,0 +1,16 @@
+This item allows the player to play mini arcade games on the server.
+the classic cartridges are minigames like snake, mario in order to play during the farm or the moments without roleplay
+
+(the one already created are the games available online)
+
+
+Those resembling the gameboy camera would serve as an augmented reality mini game.
+
+Many servers offer recreational racing or gunfight tools, without worrying about rp consistency, available at the touch of a button.
+
+these cartridges would be used (depending on the cartridge) to create car races, obstacle courses, gunfights, lazertags...
+
+
+To make it more practical, either you would have to add them once in your "exsorbeo gameboy" with a menu in the gameboy with all the games available (and be able to eject the cartridge to find it in your inventory)
+
+Either keep it in a sub-menu of the inventory dedicated to the document for example
